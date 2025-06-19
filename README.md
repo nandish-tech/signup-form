@@ -1,5 +1,5 @@
-🧾 What is this?
-It’s a basic webpage where users can enter:
+
+It’s a basic Sighnup page where users can enter:
 
 Their name
 
@@ -12,39 +12,32 @@ Confirm password
 And click Register to sign up.
 
 💡 Code Breakdown
-1. <!DOCTYPE html>
-Tells the browser this is an HTML5 document.
+     1. <!DOCTYPE html>
+         Tells the browser this is an HTML5 document.
 
-2. <html> and <head>
-<html>: Starts the HTML document.
+     2. <html> and <head>
+         <html>: Starts the HTML document.
 
-<head>: Contains info about the page (like title and styles).
+         <head>: Contains info about the page (like title and styles).
 
-3. <style> ... </style>
-This part gives the design (colors, spacing, fonts).
-Example:
+     3. <style> ... </style>
+         This part gives the design (colors, spacing, fonts).
 
-Makes the form centered.
+     4. <body>
+         The visible part of the page.
 
-Adds background color.
+     5. <form class="signup-form">
+         This is the form box.
 
-Styles input boxes and the button.
+         Inside it, you have input fields for:
 
-4. <body>
-The visible part of the page.
+         Full Name: <input type="text">
 
-5. <form class="signup-form">
-This is the form box.
+         Email: <input type="email">
 
-Inside it, you have input fields for:
+         Password: <input type="password">
 
-Full Name: <input type="text">
+         Confirm Password: <input type="password">
 
-Email: <input type="email">
-
-Password: <input type="password">
-
-Confirm Password: <input type="password">
-
-6. <button type="submit">Register</button>
-This is the Register button that submits the form.
+      6. <button type="submit">Register</button>
+              This is the Register button that submits the form.
