@@ -1,4 +1,4 @@
-🧾 What is this?
+
 It’s a basic webpage where users can enter:
 
 Their name
