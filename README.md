@@ -1,4 +1,4 @@
-
+🧾 What is this?
 It’s a basic webpage where users can enter:
 
 Their name
@@ -14,18 +14,28 @@ And click Register to sign up.
 💡 Code Breakdown
 1. <!DOCTYPE html>
 Tells the browser this is an HTML5 document.
+
 2. <html> and <head>
 <html>: Starts the HTML document.
+
 <head>: Contains info about the page (like title and styles).
+
 3. <style> ... </style>
 This part gives the design (colors, spacing, fonts).
-Example: Makes the form centered.
+Example:
+
+Makes the form centered.
+
 Adds background color.
+
 Styles input boxes and the button.
+
 4. <body>
 The visible part of the page.
+
 5. <form class="signup-form">
 This is the form box.
+
 Inside it, you have input fields for:
 
 Full Name: <input type="text">
