@@ -2,8 +2,11 @@
 It’s a basic webpage where users can enter:
 
 Their name
+
 Email
+
 Password
+
 Confirm password
 
 And click Register to sign up.
